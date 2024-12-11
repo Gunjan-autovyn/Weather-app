@@ -1,0 +1,31 @@
+<div class="search-container" [formGroup]="searchForm">
+   <input type="text" placeholder="search city" formControlName="city"/>
+   <button (click)="changeWeather()">Search</button>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="img-container">
+      <img src="../assets/images/beautiful-shot.jpg" class="section-img"/>
+    </div>
+    <div class="temperature">
+      26
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="section-2">
+      <div class="top-info">
+        <p>Expected Temperature by the day:32 C and night:14 C</p>
+      </div>
+      <div class="bottom-info">
+        <div class="info-box">
+          <p>Humidity:30%</p>
+        </div>
+        <div class="info-box">
+           <p>Wind:30 Km/H</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
